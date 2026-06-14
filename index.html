@@ -1,66 +1,222 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Harshad Patel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshad Patel | Embedded Systems Architect & IoT Consultant</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for sharp technical typography -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header>
-    <h1>Harshad Patel</h1>
-    <h3>Embedded Systems Architect | IoT Consultant | Project Manager</h3>
-</header>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo">HP<span>.systems</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="Harshad_Resume.pdf" download class="btn-resume">Download CV</a>
+    </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        Experienced Embedded Systems and IoT Professional with
-        20+ years of experience in electronics product development,
-        industrial automation and project leadership.
-    </p>
-</section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="terminal-tag"><h3>Welcome to my portfolio</h3></span>
+              
+            
+            <h1>Harshad Patel</h1>
+            <h2>Embedded Systems Architect | IoT Consultant | Project Manager</h2>
+            <p>Designing robust, industrial-grade hardware, reliable firmware, and end-to-end IoT solutions from concept to full EMS manufacturing execution.</p>
+            
+            
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Let's Connect</a>
+            </div>
+            
+        </div>
+    </section>
 
-<section>
-    <h2>Skills</h2>
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <span><h3>Experience</h3></span>
+            <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+            
+            <div class="about-stat">
+                <div class="image-profile">
+                    <img src="profile.jpg" alt="my photo" style="width: 70%; height: auto;">
+                </div>
+                <div class="stat-text">
+                <h3>20+</h3>
+                <p>Years of Professional Experience</p>
+                </div>
+            </div>
+            <div class="about-cards">
+                <div class="card">
+                    <h4>Embedded Hardware & Software</h4>
+                    <p>End-to-end circuit architecture, firmware design, and cross-platform communication integrations.</p>
+                </div>
+                <div class="card">
+                    <h4>Industrial Automation</h4>
+                    <p>Deploying deterministic modbus networks, custom gateway devices, and supervisory control mechanics.</p>
+                </div>
+                <div class="card">
+                    <h4>EMS Manufacturing</h4>
+                    <p>Bridging design with production lines, SMT component provisioning, optimization, and scalable QA pipelines.</p>
+                </div>
+                <div class="card">
+                    <h4>Team Leadership</h4>
+                    <p>Guiding cross-functional teams of engineers across strict delivery sprint matrices and hardware lifecycles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <ul>
-        <li>Embedded C</li>
-        <li>STM32</li>
-        <li>ESP32</li>
-        <li>MQTT</li>
-        <li>Node-RED</li>
-        <li>Industrial Automation</li>
-        <li>PLC Integration</li>
-        <li>Project Management</li>
-    </ul>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-title">
+            <span><h3>Core Competencies</h3></span>
+            <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-wrapper">
+            <span class="skill-tag">STM32</span>
+            <span class="skill-tag">ESP32</span>
+            <span class="skill-tag">ARM Cortex</span>
+            <span class="skill-tag">Arduino</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">Renesas/Microchip/Atmel/NXP</span>
+            <span class="skill-tag">Embedded C/C++</span>
+            <span class="skill-tag">FreeRTOS</span>
+            <span class="skill-tag">MQTT/JSON</span>
+            <span class="skill-tag">Node-RED</span>
+            <span class="skill-tag">IoT Platforms</span>
+            <span class="skill-tag">PLC/SCADA/HMI</span>            
+            <span class="skill-tag">Modbus RTU/TCP</span>
+            <span class="skill-tag">GSM/GPRS</span>
+            <span class="skill-tag">RS232/RS485</span>
+            <span class="skill-tag">SPI/I2C</span>
+            <span class="skill-tag">CAN</span>
+            <span class="skill-tag">LoRa</span>
+            <span class="skill-tag">nRF24-Mesh</span>
+            <span class="skill-tag">WiFi</span>
+            <span class="skill-tag">BLE</span>
+            <span class="skill-tag">Ethernet</span>
+            <span class="skill-tag">HTML/CSS/JavaScript</span>
+            <span class="skill-tag">Project Management</span>
+            <span class="skill-tag">Technical Leadership</span>
+        </div>
+    </section>
 
-</section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <span><h3>Deployments</h3></span>
+            <h2>Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="proj-meta">Firmware • Hardware</div>
+                <h3>Smart Energy Meter</h3>
+                <p>High-precision energy tracking unit leveraging real-time data streaming over isolated communication busses.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="proj-meta">IIoT • Edge</div>
+                <h3>IoT Gateway</h3>
+                <p>Industrial edge computing gateway bridging legacy modbus rtu/tcp instrumentation directly to cloud environments.</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="proj-meta">Automation</div>
+                <h3>Remote Pump Controller</h3>
+                <p>Automated, rugged telemetry monitoring matrix with fallback manual controls and cellular alerts.</p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="proj-meta">Solar Infrastructure</div>
+                <h3>Solar Monitoring System</h3>
+                <p>Live area tracker and power efficiency analyzer communicating over local wireless mesh networks.</p>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="proj-meta">Cloud Logs</div>
+                <h3>MQTT Data Logger</h3>
+                <p>Ultra-low-power edge logger optimized for volatile remote connections using standard broker schemas.</p>
+            </div>
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="proj-meta">Heavy Machinery</div>
+                <h3>Industrial Automation System</h3>
+                <p>Distributed control layout managing time-critical automated movements via strict safety interlocks.</p>
+            </div>
+            <!-- Project 7 -->
+            <div class="project-card">
+                <div class="proj-meta">Climate Control</div>
+                <h3>HVAC Controller</h3>
+                <p>Multi-zone smart thermal control unit using complex sensor reading variables and dynamic relays.</p>
+            </div>
+            <!-- Project 8 -->
+            <div class="project-card">
+                <div class="proj-meta">EMS Production</div>
+                <h3>EMS Manufacturing Projects</h3>
+                <p>Turnkey electronic assemblies structured cleanly for seamless SMT production and quality verification testing.</p>
+            </div>
+        </div>
+    </section>
 
-<section>
-    <h2>Projects</h2>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-title">
+            <span><h3>Offerings</h3></span>
+            <h2>Professional Services</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-item"><h3>Product Development</h3><p>From architectural block diagrams to prototype deployment realities.</p></div>
+            <div class="service-item"><h3>Embedded Design</h3><p>Optimized low-level microcode, RTOS scheduling, and firmware testing.</p></div>
+            <div class="service-item"><h3>IoT Solutions</h3><p>Full pipeline integrations parsing sensor data into cloud dashboard setups.</p></div>
+            <div class="service-item"><h3>PCB Design</h3><p>Multi-layer layout architectures optimized strictly for clear EMI/EMC compliance.</p></div>
+            <div class="service-item"><h3>EMS Manufacturing</h3><p>Streamlined Bill of Materials (BOM) review and high-yield production setup.</p></div>
+            <div class="service-item"><h3>Prototype Development</h3><p>Rapid iterative hardware bring-up and functional validation sweeps.</p></div>
+        </div>
+    </section>
 
-    <h3>IoT Energy Monitoring</h3>
-    <p>ESP32 + MQTT + Dashboard Solution</p>
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <div class="footer-wrap">
+            <div class="footer-cta">
+                <h2>Let's build something scalable.</h2>
+                <p>Available for consulting opportunities and critical project architecture assignments.</p>
+                <div class="resume-download-block">
+                    <a href="Harshad_Resume.pdf" download class="btn-primary2">Download Resume (PDF)</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Connect Channels</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/harshad-patel-ceo" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:harshad.hmt.mf@gmail.com">Email Direct</a></li>
+                    <li><a href="tel:+919016214369">Phone Direct</a></li>
+                    <li><a href="https://wa.me/919016214369" target="_blank">WhatsApp Chat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; all right are reserved by Harshad Patel</p>
+        </div>
+    </footer>
 
-    <h3>Industrial Gateway</h3>
-    <p>Modbus RTU/TCP to MQTT Gateway</p>
-
-    <h3>HVAC Automation</h3>
-    <p>Building Management System Controller</p>
-
-</section>
-
-<section>
-    <h2>Contact</h2>
-
-    <p>Email: dazzle.tech.ceo@gmail.com</p>
-
-    <p>LinkedIn:
-        www.linkedin.com/in/harshad-patel-ceo
-    </p>
-
-</section>
-
+    <script src="script.js"></script>
 </body>
 </html>
